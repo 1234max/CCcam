@@ -1,0 +1,15 @@
+CcamInfoPHP for linux new release V1
+it's a CCcam server static 
+new:
+add cccam.cfg editor and saver
+fix some bugs in serversats
+fix bugs in clinets php
+enjoy.
+new:
+add cccam.cfg editor and saver
+fix some bugs in serversats
+fix bugs in clinets php
+how to
+take all folder cccam to var/www
+then write ip or host/cccam
+enjoy.
