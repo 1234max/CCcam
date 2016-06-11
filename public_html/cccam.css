@@ -1,0 +1,420 @@
+BODY {
+	margin-top : 5;
+	margin-right : 5;
+	margin-left : 5;
+	margin-bottom : 5;
+	font-family: Tahoma;
+	font-weight : normal;
+	text-decoration : none;
+	font-size : 12px;
+	background-color: #363636;
+	color : #B5B5B5;
+}
+TABLE {
+	font-family: Tahoma;
+	font-weight : normal;
+	text-decoration : none;
+	font-size : 12px;
+}
+
+A:visited {
+	text-decoration: none; 
+	color: White;
+	}
+A:link {	
+	text-decoration: none; 
+	color: White;
+	}
+A:hover {
+	text-decoration: none; 
+	color: #FFD700;
+	}
+A:active {
+	text-decoration: none; 
+	color: #FFD700;
+	}
+	
+A.header:visited {
+	text-decoration: none; 
+	color : #FFD700;
+	}
+A.header:link {	
+	text-decoration: none; 
+	color : #FFD700;
+	}
+A.header:hover {
+	text-decoration: none; 
+	color : Orange;
+	}
+A.header:active {
+	text-decoration: none; 
+	color : #FFD700;
+	}
+	
+A.node:visited {
+	text-decoration: none; 
+	color: Black;
+	}
+A.node:link {	
+	text-decoration: none; 
+	color: Black;
+	}
+A.node:hover {
+	text-decoration: none; 
+	color: #Gray;
+	}
+A.node:active {
+	text-decoration: none; 
+	color: #Gray;
+	}
+	
+A.Node_Provider:visited {
+	text-decoration: none; 
+	color: Orange;
+	}
+A.Node_Provider:link {	
+	text-decoration: none; 
+	color: Orange;
+	}
+A.Node_Provider:hover {
+	text-decoration: none; 
+	color: #Orange;
+	}
+A.Node_Provider:active {
+	text-decoration: none; 
+	color: #Orange;
+	}
+
+
+.save {
+	behavior:url(#default#savehistory);
+	}
+a.dsphead{
+	text-decoration:none;
+	}
+a.dsphead:hover{
+	font-weight:bold;
+	}
+a.dsphead span.dspchar{
+	font-family:arial;
+	font-weight:normal;
+	}
+.dspcont{
+	display:none;
+	}
+	
+.text_normal {
+	text-decoration: none;
+	color : #B5B5B5;
+	text-align: left;
+	font-size : 9px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+
+
+.tabel_normal {
+	text-decoration: none;
+	background-color: #111111;
+	color : #B5B5B5;
+	text-align: left;
+	font-size : 9px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.tabel_normal_type {
+	text-decoration: none;
+	background-color: #543674;
+	color : #B5B5B5;
+	text-align: left;
+	font-size : 9px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+	
+.tabel_header {
+	text-decoration: none;
+	background-color: #1A1800;
+	color : #FFD700;
+	text-align: left;
+	font-size : 11px;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-left: 3px;
+	}
+.tabel_headerc {
+	text-decoration: none;
+	background-color: #1A1800;
+	color : #FFD700;
+	text-align: left;
+	font-size : 11px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	}
+.tabel_headerr {
+	text-decoration: none;
+	background-color: #1A1800;
+	color : #FFD700;
+	text-align: left;
+	font-size : 11px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: right;
+	}
+.tabel1 {
+	text-decoration: none;
+	background-color: #212121;
+	color : Orange;
+	text-align: left;
+	font-size : 9px;
+	font-weight: normal;
+	}	
+.tabel1r {
+	text-decoration: none;
+	background-color: #212121;
+	color : Orange;
+	text-align: right;
+	font-size : 9px;
+	font-weight: normal;
+	}		
+.tabel_total {
+	text-decoration: none;
+	background-color: #111111;
+	color : #ffffff;
+	text-align: center;
+	font-size : 9px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.tabel_ecm {
+	text-decoration: none;
+	background-color: #1E1E1E;
+	color : #FAFAD2;
+	text-align: center;
+	font-size : 9px;
+	font-weight: bold;
+	white-space: nowrap;
+
+	}	
+.tabel_hop {
+	text-decoration: none;
+	background-color: #111111;
+	color : #80ff80;
+	text-align: center;
+	font-size : 9px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.tabel_hop_total {
+	text-decoration: none;
+	background-color: #111111;
+	color : #10f180;
+	text-align: center;
+	font-size : 9px;
+	font-weight: bold;
+	white-space: nowrap;
+
+	}
+.tabel_hop_total1 {
+	text-decoration: none;
+	background-color: #111111;
+	color : #B5B5B5;
+	text-align: center;
+	font-size : 9px;
+	font-weight: normal;
+	white-space: nowrap;
+	}	
+.tabel_hop_total2 {
+	text-decoration: none;
+	background-color: #111111;
+	color : #B5B5B5;
+	text-align: center;
+	font-size : 9px;
+	font-weight: normal;
+	white-space: nowrap;
+	}		
+.Node_ID_hopCS {
+	text-decoration: none;
+	background-color: #eeffee;
+	color : Black;
+	text-align: left;
+	font-size : 11px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.Node_ID {
+	text-decoration: none;
+	background-color: #212121;
+	color : White;
+	text-align: left;
+	font-size : 11px;
+	font-weight: bold;
+	white-space: nowrap;
+	}	
+.Node_IDr {
+	text-decoration: none;
+	background-color: #212121;
+	color : White;
+	text-align: right;
+	font-size : 11px;
+	font-weight: bold;
+	white-space: nowrap;
+	}		
+.Node_ID_hop0 {
+	text-decoration: none;
+	background-color: #00c000;
+	color : Black;
+	text-align: left;
+	font-size : 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.Node_ID_hop1 {
+	text-decoration: none;
+	background-color: #80ff80;
+	color : Black;
+	text-align: left;
+	font-size : 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.Node_ID_hop2 {
+	text-decoration: none;
+	background-color: #e6f638;
+	color : Black;
+	text-align: left;
+	font-size : 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.Node_ID_hop3 {
+	text-decoration: none;
+	background-color: #f6be38;
+	color : Black;
+	text-align: left;
+	font-size : 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.Node_ID_hop4 {
+	text-decoration: none;
+	background-color: #f66938;
+	color : Black;
+	text-align: left;
+	font-size : 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.Node_ID_hop5 {
+	text-decoration: none;
+	background-color: #ee3636;
+	color : Black;
+	text-align: left;
+	font-size : 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+.Node_Provider {
+	text-decoration: none;
+	background-color: #212121;
+	color : Orange;
+	text-align: left;
+	font-size : 9px;
+	font-weight: normal;
+	}
+.Node_ProviderMissing {
+	text-decoration: none;
+	background-color: #363636;
+	color : Orange;
+	text-align: left;
+	font-size : 9px;
+	font-weight: normal;
+	}	
+.Node_count {
+	text-decoration: none;
+	background-color: #212121;
+	color : Orange;
+	text-align: left;
+	font-size : 9px;
+	font-weight: normal;
+	text-align: center;
+	}	
+.Node_clienti {
+	text-decoration: none;
+	background-color: #212121;
+	color : White;
+	text-align: left;
+	font-size : 9px;
+	font-weight: normal;
+	vertical-align: top;
+	}		
+.Node_Unic {
+	text-decoration: none;
+	background-color: #111111;
+	color : Red;
+	text-align: center;
+	font-size : 10px;
+	font-weight: bold;
+	}
+.Server_Local {
+	text-decoration: none;
+	background-color: #212121;
+	color : Orange;
+	text-align: left;
+	font-size : 9px;
+	font-weight: normal;
+	font-family: Tahoma;
+	}
+	
+.normalbutton{
+	background-color: #AFCC00;
+	border: 1px solid;
+	color: #000000;
+	font: bold 9pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.TEXTAREANORMAL{
+	background-color: #282828;
+	border: 0px solid;
+	color: #AAAAAA;
+	overflow:auto;
+	font: bold 9pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.savetextbutton{
+	background-color: #212121;
+	border: 0px solid;
+	color: #EFEEFE;
+	font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.updatebutton{
+	background-color: #FFCC00;
+	border: 1px solid;
+	color: #000000;
+	font: bold 9pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.tableTop {
+	vertical-align: top;
+}	
+
+.tabel_param {
+	text-decoration: none;
+	background-color: #363636;
+	color : #FFD700;
+	text-align: center;
+	font-size : 11px;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-left: 3px;
+	}
+.server_profile {
+	text-decoration: none;
+	background-color: #363636;
+	color : #FFD700;
+	text-align: left;
+	font-size : 11px;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-left: 3px;
+	}
